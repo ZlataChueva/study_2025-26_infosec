@@ -1,0 +1,168 @@
+<h1 id="информация">Информация</h1>
+<h2 id="докладчик">Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Чуева Злата</li>
+<li>Физико-Математический факультет</li>
+<li>Российский университет дружбы народов</li>
+<li><a href="mailto:1132242459@rudn.ru">1132242459@rudn.ru</a></li>
+<li><a href="https://github.com/ZlataChueva"
+class="uri">https://github.com/ZlataChueva</a></li>
+</ul>
+</div>
+</div>
+<h1 id="цель-работы">Цель работы</h1>
+<p>Приобретение практических навыков установки операционной системы на
+виртуальную машину.</p>
+<h2 id="задачи">Задачи</h2>
+<ol type="1">
+<li>Установить и настроить Rocky Linux.</li>
+<li>Получить следующую информацию:
+<ol type="1">
+<li>Версия Linux</li>
+<li>Частота процессора</li>
+<li>Модель процессора</li>
+<li>Объем доступной оперативной памяти</li>
+<li>Тип обнаруженного гипервизора</li>
+<li>Тип файловой системы корневого раздела</li>
+<li>Последовательность монтирования файловых систем</li>
+</ol></li>
+</ol>
+<h1 id="создание">Создание</h1>
+<p>В приложении VirtualBox создала новую виртуальную машину.</p>
+<figure id="fig:001">
+<img src="image/1.png" style="width:70.0%" alt="Имя и тип ОС" />
+<figcaption aria-hidden="true">Имя и тип ОС</figcaption>
+</figure>
+<h1 id="настройка">Настройка</h1>
+<p>Указала объем памяти и добавила привод оптических дисков.</p>
+<figure id="fig:002">
+<img src="image/2.png" style="width:70.0%"
+alt="Объем основной памяти" />
+<figcaption aria-hidden="true">Объем основной памяти</figcaption>
+</figure>
+<h1 id="настройка-1">Настройка</h1>
+<figure id="fig:003">
+<img src="image/3.png" style="width:70.0%" alt="Жетский диск" />
+<figcaption aria-hidden="true">Жетский диск</figcaption>
+</figure>
+<h1 id="настройка-2">Настройка</h1>
+<p>Соглашаюсь с поставленными настройками.</p>
+<figure id="fig:004">
+<img src="image/4.png" style="width:70.0%" alt="Итоговые настройки" />
+<figcaption aria-hidden="true">Итоговые настройки</figcaption>
+</figure>
+<h1 id="настройка-3">Настройка</h1>
+<p>Добавила привод оптических дисков.</p>
+<figure id="fig:005">
+<img src="image/5.png" style="width:70.0%" alt="Носители" />
+<figcaption aria-hidden="true">Носители</figcaption>
+</figure>
+<h1 id="запуск">Запуск</h1>
+<p>Запустила виртуальную машину</p>
+<figure id="fig:006">
+<img src="image/6.png" style="width:70.0%" alt="Окно установки" />
+<figcaption aria-hidden="true">Окно установки</figcaption>
+</figure>
+<h1 id="установка">Установка</h1>
+<p>Выбрала язык установки.</p>
+<figure id="fig:007">
+<img src="image/7.png" style="width:70.0%" alt="Язык" />
+<figcaption aria-hidden="true">Язык</figcaption>
+</figure>
+<h1 id="установка-1">Установка</h1>
+<p>В качестве базового окружения выбрала Server with GUI, а в качестве
+дополнения — Development Tools.</p>
+<figure id="fig:008">
+<img src="image/8.png" style="width:70.0%" alt="Базовое окружение" />
+<figcaption aria-hidden="true">Базовое окружение</figcaption>
+</figure>
+<h1 id="установка-2">Установка</h1>
+<p>Отключила KDUMP.</p>
+<figure id="fig:009">
+<img src="image/9.png" style="width:70.0%" alt="Отключение kdump" />
+<figcaption aria-hidden="true">Отключение kdump</figcaption>
+</figure>
+<h1 id="установка-3">Установка</h1>
+<p>Включила сетевое соединение и указала имя домена.</p>
+<figure id="fig:0010">
+<img src="image/11.png" style="width:70.0%" alt="Сетевое соединение" />
+<figcaption aria-hidden="true">Сетевое соединение</figcaption>
+</figure>
+<h1 id="установка-4">Установка</h1>
+<p>Указала пароль для root и пользователя с правами администратора.</p>
+<figure id="fig:0011">
+<img src="image/13.png" style="width:70.0%" alt="Установка пароля" />
+<figcaption aria-hidden="true">Установка пароля</figcaption>
+</figure>
+<h1 id="установка-5">Установка</h1>
+<p>Установка системы.</p>
+<figure id="fig:0012">
+<img src="image/14.png" style="width:70.0%" alt="Установка" />
+<figcaption aria-hidden="true">Установка</figcaption>
+</figure>
+<h1 id="информация-1">Информация</h1>
+<p>После завершения установки образ диска пропадет из носителей.</p>
+<figure id="fig:0013">
+<img src="image/5.png" style="width:70.0%" alt="Проверка носителей" />
+<figcaption aria-hidden="true">Проверка носителей</figcaption>
+</figure>
+<h1 id="информация-2">Информация</h1>
+<p>Запустила в терминале: dmesg | grep -i “Linux version”, чтобы
+получить информацию о ядре.</p>
+<figure id="fig:0014">
+<img src="image/15.png" style="width:70.0%" alt="Версия ядра Linux" />
+<figcaption aria-hidden="true">Версия ядра Linux</figcaption>
+</figure>
+<h1 id="информация-3">Информация</h1>
+<p>dmesg | grep -i “Detected”, чтобы получить информацию о частоте
+процессора.</p>
+<figure id="fig:0015">
+<img src="image/16.png" style="width:70.0%" alt="Частота процессора" />
+<figcaption aria-hidden="true">Частота процессора</figcaption>
+</figure>
+<h1 id="информация-4">Информация</h1>
+<p>dmesg | grep -i “CPU0”, чтобы получить информацию о модели
+процессора.</p>
+<figure id="fig:0016">
+<img src="image/17.png" style="width:70.0%" alt="Модель процессора" />
+<figcaption aria-hidden="true">Модель процессора</figcaption>
+</figure>
+<h1 id="информация-5">Информация</h1>
+<p>dmesg | grep -i “Memory”, чтобы получить информацию об оперативной
+памяти.</p>
+<figure id="fig:0017">
+<img src="image/18.png" style="width:70.0%"
+alt="Объем доступной оперативной памяти" />
+<figcaption aria-hidden="true">Объем доступной оперативной
+памяти</figcaption>
+</figure>
+<h1 id="информация-6">Информация</h1>
+<p>dmesg | grep -i “Hypervisor detected”, чтобы получить информацию о
+гипервизоре.</p>
+<figure id="fig:0018">
+<img src="image/19.png" style="width:70.0%" alt="Тип гипервизора" />
+<figcaption aria-hidden="true">Тип гипервизора</figcaption>
+</figure>
+<h1 id="информация-7">Информация</h1>
+<p>lsblk -f, чтобы получить информацию о файловой системе корневого
+раздела.</p>
+<figure id="fig:0019">
+<img src="image/20.png" style="width:70.0%"
+alt="Тип файловой системы" />
+<figcaption aria-hidden="true">Тип файловой системы</figcaption>
+</figure>
+<h1 id="информация-8">Информация</h1>
+<p>dmesg | grep -i “mount”, чтобы получить информацию о монтировании
+файловых систем.</p>
+<figure id="fig:0020">
+<img src="image/21.png" style="width:70.0%"
+alt="Последовательность монтирования файловых систем" />
+<figcaption aria-hidden="true">Последовательность монтирования файловых
+систем</figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>Я приобрела практические навыки установки операционной системы на
+виртуальную машину и настройки минимально необходимых для дальнейшей
+работы сервисов.</p>
