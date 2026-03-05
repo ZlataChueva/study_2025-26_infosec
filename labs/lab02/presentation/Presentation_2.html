@@ -1,0 +1,143 @@
+<h1 id="докладчик">Докладчик</h1>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Чуева Злата</li>
+<li>Физико-Математический факультет</li>
+<li>Российский университет дружбы народов</li>
+<li><a href="mailto:1132242459@rudn.ru">1132242459@rudn.ru</a></li>
+<li><a href="https://github.com/ZlataChueva"
+class="uri">https://github.com/ZlataChueva</a></li>
+</ul>
+</div>
+</div>
+<h1 id="цель-работы">Цель работы</h1>
+<p>Получение практических навыков работы в консоли с атрибутами файлов,
+закрепление теоретических основ дискреционного разграничения доступа в
+современных системах с открытым кодом на базе ОС Linux.</p>
+<h1 id="задание">Задание</h1>
+<ol type="1">
+<li>Выполнить команды</li>
+<li>Заполнить таблицы</li>
+</ol>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной
+работы</h1>
+<p>Через учетную запись администратора создала нового пользователя guest
+и задала пароль.</p>
+<figure id="fig:001">
+<img src="image/1.png" style="width:100.0%"
+alt="Создание пользователя" />
+<figcaption aria-hidden="true">Создание пользователя</figcaption>
+</figure>
+<h1 id="атрибуты-файлов">Атрибуты файлов</h1>
+<figure id="fig:002">
+<img src="image/2.png" style="width:100.0%" alt="Добавление пароля" />
+<figcaption aria-hidden="true">Добавление пароля</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-1">Атрибуты файлов</h1>
+<p>Вошла в систему от имени ползователя guest и определила, где нахожусь
+с помощью команды pwd.</p>
+<figure id="fig:003">
+<img src="image/3.png" style="width:100.0%" alt="Текущая директория" />
+<figcaption aria-hidden="true">Текущая директория</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-2">Атрибуты файлов</h1>
+<p>Уточнила имя пользователя.</p>
+<figure id="fig:004">
+<img src="image/4.png" style="width:100.0%" alt="Имя пользователя" />
+<figcaption aria-hidden="true">Имя пользователя</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-3">Атрибуты файлов</h1>
+<p>Уточнила группу пользователя с помощью команд id и groups.</p>
+<figure id="fig:005">
+<img src="image/5.png" style="width:100.0%" alt="Команда id" />
+<figcaption aria-hidden="true">Команда id</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-4">Атрибуты файлов</h1>
+<figure id="fig:006">
+<img src="image/6.png" style="width:100.0%" alt="Команда groups" />
+<figcaption aria-hidden="true">Команда groups</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-5">Атрибуты файлов</h1>
+<p>С помощью команды cat /etc/passwd вывела свою учетную запись и адрес
+домашней директории.</p>
+<figure id="fig:007">
+<img src="image/7.1.png" style="width:100.0%"
+alt="Посмотр файла passwd" />
+<figcaption aria-hidden="true">Посмотр файла passwd</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-6">Атрибуты файлов</h1>
+<p>Определила и сравнила uid и gid пользователей.</p>
+<figure id="fig:008">
+<img src="image/8.png" style="width:100.0%"
+alt="Uid и gid пользователя guest" />
+<figcaption aria-hidden="true">Uid и gid пользователя guest</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-7">Атрибуты файлов</h1>
+<p>Определила существующие в системе директории с помощью команды ls -l
+/home/</p>
+<figure id="fig:009">
+<img src="image/9.png" style="width:100.0%"
+alt="Список поддиректорий" />
+<figcaption aria-hidden="true">Список поддиректорий</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-8">Атрибуты файлов</h1>
+<p>Проверила, какие расширенные атрибуты установлены на поддиректориях,
+находящихся в директории /home, командой lsattr /home</p>
+<figure id="fig:010">
+<img src="image/10.png" style="width:100.0%"
+alt="Расширенные атрибуты" />
+<figcaption aria-hidden="true">Расширенные атрибуты</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-9">Атрибуты файлов</h1>
+<p>Создала в домашней директории поддиректорию dir1 командой mkdir
+dir1</p>
+<figure id="fig:011">
+<img src="image/11.png" style="width:100.0%"
+alt="Создание директории" />
+<figcaption aria-hidden="true">Создание директории</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-10">Атрибуты файлов</h1>
+<p>Определила командами ls -l и lsattr, какие права доступа и
+расширенные атрибуты были выставлены на директорию dir1.</p>
+<figure id="fig:012">
+<img src="image/12.png" style="width:100.0%"
+alt="Права доступа директории" />
+<figcaption aria-hidden="true">Права доступа директории</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-11">Атрибуты файлов</h1>
+<p>Сняла с директории dir1 все атрибуты командой chmod 000 dir1 и
+проверила с её помощью правильность выполнения команды ls -l</p>
+<figure id="fig:013">
+<img src="image/13.png" style="width:70.0%"
+alt="Снятие всех атрибутов" />
+<figcaption aria-hidden="true">Снятие всех атрибутов</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-12">Атрибуты файлов</h1>
+<figure id="fig:014">
+<img src="image/14.png" style="width:100.0%"
+alt="Проверка правильности выполнения" />
+<figcaption aria-hidden="true">Проверка правильности
+выполнения</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-13">Атрибуты файлов</h1>
+<p>Попыталась создать в директории dir1 файл file1 командой echo “test”
+&gt; /home/guest/dir1/file1. Получила отказ в выполнении, так как на
+директорию dir1 были установлены полностью запрещающие права (для
+владельца, группы и остальных пользователей).</p>
+<figure id="fig:015">
+<img src="image/15.png" style="width:100.0%"
+alt="Отказ в выполнении операции" />
+<figcaption aria-hidden="true">Отказ в выполнении операции</figcaption>
+</figure>
+<h1 id="атрибуты-файлов-14">Атрибуты файлов</h1>
+<p>Проверила командой ls -l /home/guest/dir действительно ли файл file1
+не находится внутри директории dir1.</p>
+<figure id="fig:016">
+<img src="image/16.png" data-idth="100%" alt="Проверка" />
+<figcaption aria-hidden="true">Проверка</figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>Получила практических навыков работы в консоли с атрибутами файлов,
+закрепила теоретические основы дискреционного разграничения доступа в
+современных системах с открытым кодом на базе ОС Linux.</p>
