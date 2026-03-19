@@ -1,0 +1,132 @@
+<h1 id="докладчик">Докладчик</h1>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Чуева Злата</li>
+<li>НБИбд-01-24</li>
+<li>Факультет Физико-математических и естественных наук</li>
+<li>Российский университет дружбы народов</li>
+<li><a href="mailto:1132242459@rudn.ru">1132242459@rudn.ru</a></li>
+<li><a href="https://github.com/ZlataChueva"
+class="uri">https://github.com/ZlataChueva</a></li>
+</ul>
+</div>
+</div>
+<h1 id="цель-работы">Цель работы</h1>
+<p>Получение практических навыков работы в консоли с атрибутами файлов
+для групп пользователей.</p>
+<h1 id="задание">Задание</h1>
+<ol type="1">
+<li>Выполнить задания лабораторной работы.</li>
+</ol>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной
+работы</h1>
+<p>Из предыдущей лабораторной работы у меня уже создан пользователь
+guest.</p>
+<figure id="fig:001">
+<img src="image/1.png" style="width:90.0%" alt="пользователь guest" />
+<figcaption aria-hidden="true">пользователь guest</figcaption>
+</figure>
+<h1 id="создание-guest2">Создание guest2</h1>
+<p>Создаю пользователя guest2 и устанавливаю пароль.</p>
+<figure id="fig:002">
+<img src="image/2.png" style="width:90.0%" alt="создание guest2" />
+<figcaption aria-hidden="true">создание guest2</figcaption>
+</figure>
+<h1 id="добавление-в-группу">Добавление в группу</h1>
+<p>Добавляю guest2 в группу guest:</p>
+<figure id="fig:003">
+<img src="image/3.png" style="width:90.0%" alt="Добавление в группу" />
+<figcaption aria-hidden="true">Добавление в группу</figcaption>
+</figure>
+<h1 id="вход-в-guest">вход в guest</h1>
+<p>От имени guest и guest2 захожу на разных консолях используя su:</p>
+<figure id="fig:004">
+<img src="image/4.png" style="width:90.0%" alt="вход в guest" />
+<figcaption aria-hidden="true">вход в guest</figcaption>
+</figure>
+<h1 id="вход-в-guest2">вход в guest2</h1>
+<figure id="fig:005">
+<img src="image/6.png" style="width:90.0%" alt="вход в guest2" />
+<figcaption aria-hidden="true">вход в guest2</figcaption>
+</figure>
+<h1 id="консоли">2 Консоли</h1>
+<figure id="fig:006">
+<img src="image/8.png" style="width:90.0%" alt="2 консоли" />
+<figcaption aria-hidden="true">2 консоли</figcaption>
+</figure>
+<h1 id="guest---pwd">guest - pwd</h1>
+<p>С помощью команды pwd определяю, где нахожусь:</p>
+<figure id="fig:007">
+<img src="image/5.png" style="width:90.0%" alt="guest - pwd" />
+<figcaption aria-hidden="true">guest - pwd</figcaption>
+</figure>
+<h1 id="gues2t---pwd">gues2t - pwd</h1>
+<figure id="fig:008">
+<img src="image/7.png" style="width:90.0%" alt="guest2 - pwd" />
+<figcaption aria-hidden="true">guest2 - pwd</figcaption>
+</figure>
+<h1 id="проверка-guest">Проверка guest</h1>
+<p>Текущая директория совпадает с приглашением командной строки.</p>
+<p>Проверяю имя пользователей с помощью команды whoami. Она выводит
+группы, которым принадлежит пользователь и коды этих групп. Команда
+groups просто выведет список групп, в которые входит пользователь. id
+-Gn - выведет названия групп, которым принадлежит пользователь id -G -
+выведет только код групп, которым принадлежит пользователь.</p>
+<figure id="fig:009">
+<img src="image/10.png" style="width:90.0%" alt="Проверка guest" />
+<figcaption aria-hidden="true">Проверка guest</figcaption>
+</figure>
+<h1 id="проверка-guest2">Проверка guest2</h1>
+<figure id="fig:0010">
+<img src="image/9.png" style="width:90.0%" alt="Проверка guest2" />
+<figcaption aria-hidden="true">Проверка guest2</figcaption>
+</figure>
+<h1 id="содержиемое-etcgroup">содержиемое etc/group</h1>
+<p>Вывожу содержимое файла etc/group у обоих пользователей.</p>
+<figure id="fig:0011">
+<img src="image/11.png" style="width:90.0%"
+alt="содержиемое etc/group" />
+<figcaption aria-hidden="true">содержиемое etc/group</figcaption>
+</figure>
+<h1 id="создание-новой-группы">создание новой группы</h1>
+<p>Регистрирую guest2 в группе guest с помощью команды newgrp:</p>
+<figure id="fig:0012">
+<img src="image/13.png" style="width:90.0%"
+alt="создание новой группы" />
+<figcaption aria-hidden="true">создание новой группы</figcaption>
+</figure>
+<h1 id="вход-в-homeguest">вход в /home/guest</h1>
+<p>Вхожу в директорию /home/guest.</p>
+<figure id="fig:0013">
+<img src="image/14.png" style="width:90.0%" alt="вход в /home/guest" />
+<figcaption aria-hidden="true">вход в /home/guest</figcaption>
+</figure>
+<h1 id="изменение-прав-доступа">Изменение прав доступа</h1>
+<p>Разрешаю все действия для пользователей группы.</p>
+<figure id="fig:0014">
+<img src="image/15.png" style="width:90.0%"
+alt="Изменение прав доступа" />
+<figcaption aria-hidden="true">Изменение прав доступа</figcaption>
+</figure>
+<h1 id="проверка-изменений">Проверка изменений</h1>
+<p>Снимаю все атрибуты с директории dir1, созданной в предыдущей
+лабораторной работе. Проверяю, что права действительно сняты.</p>
+<figure id="fig:0015">
+<img src="image/16.png" style="width:90.0%" alt="Проверка изменений" />
+<figcaption aria-hidden="true">Проверка изменений</figcaption>
+</figure>
+<h1 id="проверка">Проверка</h1>
+<figure id="fig:0016">
+<img src="image/17.png" style="width:90.0%" alt="Проверка" />
+<figcaption aria-hidden="true">Проверка</figcaption>
+</figure>
+<h1 id="проверка-атрибутов">Проверка атрибутов</h1>
+<p>Проверяю как guest2 взаимодействует с файлами dir1 и заполняю
+таблицы.</p>
+<figure id="fig:0017">
+<img src="image/18.png" style="width:90.0%" alt="Проверка атрибутов" />
+<figcaption aria-hidden="true">Проверка атрибутов</figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>Получила навыки работы в консоли с атрибутами файлов.</p>
